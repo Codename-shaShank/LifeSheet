@@ -1,0 +1,361 @@
+/* Three floating panels on a darker gutter: sidebar | top bar over main. */
+
+.shell {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  gap: 8px;
+  height: 100vh;
+  padding: 4px;
+}
+
+.shell.is-collapsed {
+  --sidebar-w: 64px;
+}
+
+/* ───────── Sidebar ───────── */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+}
+
+.sidebar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 4px;
+  padding: 14px 8px 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+  padding: 6px 10px;
+}
+
+.nav-section + .nav-section {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.nav-section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 8px 8px;
+  color: var(--muted);
+  font-size: 11.5px;
+}
+
+.nav-section-toggle:hover {
+  color: var(--text-2);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2px;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--text-2);
+  font-size: 13.5px;
+}
+
+.nav-item:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.nav-item.active {
+  background: var(--surface-3);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.nav-trail {
+  margin-left: auto;
+}
+
+.sidebar-foot {
+  position: relative;
+  margin: 0 4px;
+  padding: 10px 6px;
+  border-top: 1px solid var(--border);
+}
+
+.user-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  text-align: left;
+}
+
+.user-chip:hover {
+  background: var(--surface-2);
+}
+
+.avatar {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--surface-3);
+  color: var(--text-2);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.user-name {
+  overflow: hidden;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Collapsed rail: icons only. */
+.sidebar.is-collapsed .nav-label,
+.sidebar.is-collapsed .nav-section-toggle {
+  display: none;
+}
+
+.sidebar.is-collapsed .sidebar-head {
+  justify-content: center;
+  padding: 14px 0 12px;
+}
+
+.sidebar.is-collapsed .nav-item,
+.sidebar.is-collapsed .user-chip {
+  justify-content: center;
+}
+
+/* ───────── User menu ───────── */
+
+.user-menu {
+  position: absolute;
+  bottom: calc(100% - 4px);
+  left: 6px;
+  z-index: 30;
+  width: 208px;
+  padding: 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--text-2);
+  font-size: 13.5px;
+  text-align: left;
+}
+
+button.menu-item:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.menu-trail {
+  margin-left: auto;
+}
+
+.menu-item.is-danger {
+  color: var(--danger);
+}
+
+.menu-sep {
+  height: 1px;
+  margin: 4px 6px;
+  background: var(--border);
+}
+
+.theme-switch {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  width: 44px;
+  height: 24px;
+  padding: 3px;
+  border: 1px solid var(--border-strong);
+  border-radius: 99px;
+  background: var(--surface-2);
+}
+
+.theme-knob {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--panel);
+}
+
+/* ───────── Right column ───────── */
+
+.shell-right {
+  display: grid;
+  grid-template-rows: 48px minmax(0, 1fr);
+  gap: 8px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 0 16px;
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+}
+
+.streak {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 14px;
+  border-left: 1px solid var(--border);
+  font-weight: 700;
+}
+
+.streak-flame {
+  color: #e0692c;
+  fill: rgba(224, 105, 44, 0.35);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--planner-w);
+  align-items: start;
+  gap: 28px;
+  overflow-y: auto;
+  padding: 8px 8px 32px 24px;
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+}
+
+.main.no-planner {
+  grid-template-columns: minmax(0, 1fr);
+  padding-right: 24px;
+}
+
+.page {
+  min-width: 0;
+  padding-top: 28px;
+}
+
+/* ───────── Daily planner ───────── */
+
+.planner {
+  position: sticky;
+  top: 8px;
+  margin-top: 8px;
+  padding: 18px 16px 20px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.planner-title {
+  font-size: 14.5px;
+  font-weight: 600;
+}
+
+.planner-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 12px 28px;
+  text-align: center;
+}
+
+.planner-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  background: var(--surface-3);
+}
+
+.planner-empty-title {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.planner-empty-body {
+  max-width: 200px;
+  margin-top: 6px;
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+.planner-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 7px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--text-2);
+  font-size: 12.5px;
+}
+
+.planner-add:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+/* ───────── Responsive ───────── */
+
+@media (max-width: 1120px) {
+  .main {
+    grid-template-columns: minmax(0, 1fr);
+    padding-right: 24px;
+  }
+  .planner {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .shell {
+    --sidebar-w: 64px;
+  }
+  .sidebar .nav-label,
+  .sidebar .nav-section-toggle {
+    display: none;
+  }
+  .sidebar .sidebar-head {
+    justify-content: center;
+    padding: 14px 0 12px;
+  }
+  .sidebar .nav-item,
+  .sidebar .user-chip {
+    justify-content: center;
+  }
+  .main {
+    padding: 4px 14px 24px;
+  }
+}

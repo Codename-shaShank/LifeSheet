@@ -1,0 +1,18 @@
+{
+  "collectionId": "dsa",
+  "sections": [
+    {
+      "id": "learn-from-zero",
+      "title": "Learn From Zero",
+      "sheets": [
+        {
+          "id": "sequence-dsa-sheet",
+          "title": "Sequence DSA Sheet",
+          "icon": "sequence",
+          "contests": 16,
+          "hours": 131.4
+        }
+      ]
+    }
+  ]
+}

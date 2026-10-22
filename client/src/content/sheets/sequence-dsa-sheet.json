@@ -1,0 +1,2464 @@
+{
+  "id": "sequence-dsa-sheet",
+  "title": "Sequence DSA Sheet",
+  "description": "Learn data structures and algorithms in a clear sequence, from programming foundations to advanced problems. Build your coding interview skills through independent practice, better approaches, and regular revision.",
+  "source": "LIFE_SHEET.xlsx",
+  "generatedAt": "2026-10-22T10:41:48.150Z",
+  "modules": [
+    {
+      "id": "arrays",
+      "title": "Arrays",
+      "groups": [
+        {
+          "id": "medium",
+          "title": "Medium",
+          "problems": [
+            {
+              "id": "two-sum",
+              "title": "Two Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/two-sum/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "all links",
+                  "url": "https://p.ip.fi/FfM4"
+                }
+              ]
+            },
+            {
+              "id": "sort-colors",
+              "title": "Sort colors",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sort-colors/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Wiggle Sort",
+                  "url": "https://leetcode.com/problems/wiggle-sort-ii/"
+                }
+              ]
+            },
+            {
+              "id": "majority-element",
+              "title": "Majority Element",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/majority-element/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Majority Element 2",
+                  "url": "https://leetcode.com/problems/majority-element-ii/description/"
+                },
+                {
+                  "label": "2404 2780",
+                  "url": "https://leetcode.com/problems/most-frequent-even-element/description/"
+                },
+                {
+                  "label": "3065",
+                  "url": "https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/"
+                }
+              ]
+            },
+            {
+              "id": "maximum-subarray",
+              "title": "KADANE'S ALGORITHM",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-subarray/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/PTO2"
+                }
+              ]
+            },
+            {
+              "id": "arrays-kadane-s-extended",
+              "title": "kadane's extended",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/0?category"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "best-time-to-buy-and-sell-stock",
+              "title": "121. Best time to buy and sell stocs",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/XXND"
+                }
+              ]
+            },
+            {
+              "id": "rearrange-array-elements-by-sign",
+              "title": "2149. Rearrange Elements by stock",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/rearrange-array-elements-by-sign/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "376 922",
+                  "url": "https://leetcode.com/problems/wiggle-subsequence/description/"
+                },
+                {
+                  "label": "2161",
+                  "url": "https://leetcode.com/problems/partition-array-according-to-given-pivot/description/"
+                },
+                {
+                  "label": "2231",
+                  "url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/description/"
+                }
+              ]
+            },
+            {
+              "id": "longest-consecutive-sequence",
+              "title": "128. Finding longest subsequence sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-consecutive-sequence/editorial/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-consecutive-sequence-2",
+              "title": "Longest consecutive sequence",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-consecutive-sequence/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2177 2274",
+                  "url": "https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/description/"
+                },
+                {
+                  "label": "2414",
+                  "url": "https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/description/"
+                },
+                {
+                  "label": "3020",
+                  "url": "https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/"
+                }
+              ]
+            },
+            {
+              "id": "subarray-sum-equals-k",
+              "title": "Subarray Sums equals k",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/subarray-sum-equals-k/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/BsIV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hard",
+          "title": "Hard",
+          "problems": [
+            {
+              "id": "pascals-triangle",
+              "title": "Pacals Triangle",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/pascals-triangle/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "majority-element-ii",
+              "title": "229. Majority Element 2",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/majority-element-ii/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2404",
+                  "url": "https://leetcode.com/problems/most-frequent-even-element/description/"
+                },
+                {
+                  "label": "169",
+                  "url": "https://leetcode.com/problems/majority-element/description/"
+                }
+              ]
+            },
+            {
+              "id": "3sum",
+              "title": "15. threesome",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/3sum/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/sR5J"
+                }
+              ]
+            },
+            {
+              "id": "4sum",
+              "title": "18.4sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/4sum/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1995",
+                  "url": "https://leetcode.com/problems/count-special-quadruplets/description/"
+                },
+                {
+                  "label": "454",
+                  "url": "https://leetcode.com/problems/4sum-ii/description/"
+                }
+              ]
+            },
+            {
+              "id": "arrays-gfg-largest-subaray-with-0-sum",
+              "title": "GFG : Largest Subaray with 0 sum",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?category%5B%5D=Hash&company%5B%5D=Amazon&page=1&query=category%5B%5DHashcompany%5B%5DAmazonpage1company%5B%5DAmazoncategory%5B%5DHash"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "merge-intervals",
+              "title": "56. Merge intervals",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/merge-intervals/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/XWgk"
+                }
+              ]
+            },
+            {
+              "id": "merge-sorted-array",
+              "title": "88. Merge two sorted array without extra space",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/merge-sorted-array/description/https://leetcode.com/problems/merge-sorted-array/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "21 977",
+                  "url": "https://leetcode.com/problems/merge-two-sorted-lists/description/"
+                },
+                {
+                  "label": "986",
+                  "url": "https://leetcode.com/problems/interval-list-intersections/description/"
+                },
+                {
+                  "label": "2516",
+                  "url": "https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/description/"
+                }
+              ]
+            },
+            {
+              "id": "reverse-pairs",
+              "title": "493. Reverse Pairs",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reverse-pairs/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "315",
+                  "url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/"
+                },
+                {
+                  "label": "327",
+                  "url": "https://leetcode.com/problems/count-of-range-sum/description/"
+                }
+              ]
+            },
+            {
+              "id": "maximum-product-subarray",
+              "title": "152. Maximum Product Subarray",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-product-subarray/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/3VjI"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search",
+      "groups": [
+        {
+          "id": "on-answers",
+          "title": "On Answers",
+          "problems": [
+            {
+              "id": "find-the-smallest-divisor-given-a-threshold",
+              "title": "1283.Smallest Divisor Given a threshold",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2064",
+                  "url": "https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-search-finding-nth-root",
+              "title": "Finding nth root",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "minimum-number-of-days-to-make-m-bouquets",
+              "title": "1482 M days to make boquets",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2024",
+                  "url": "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/"
+                },
+                {
+                  "label": "2136",
+                  "url": "https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/"
+                }
+              ]
+            },
+            {
+              "id": "koko-eating-bananas",
+              "title": "875. koko eating bananas",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/koko-eating-bananas/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2226 2064",
+                  "url": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/"
+                },
+                {
+                  "label": "2498",
+                  "url": "https://leetcode.com/problems/frog-jump-ii/description/"
+                },
+                {
+                  "label": "2594",
+                  "url": "https://leetcode.com/problems/minimum-time-to-repair-cars/description/"
+                }
+              ]
+            },
+            {
+              "id": "capacity-to-ship-packages-within-d-days",
+              "title": "1011 . Capacity to ship package within D days",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/PR0P"
+                }
+              ]
+            },
+            {
+              "id": "find-the-smallest-divisor-given-a-threshold-2",
+              "title": "1283. Smallest Divisor in a threshold",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2064",
+                  "url": "https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/"
+                }
+              ]
+            },
+            {
+              "id": "kth-missing-positive-number",
+              "title": "1539. Kth missing +ve no.",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/kth-missing-positive-number/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2195",
+                  "url": "https://leetcode.com/problems/append-k-integers-with-minimal-sum/"
+                }
+              ]
+            },
+            {
+              "id": "binary-search-spoj-aggressive-cows-problem",
+              "title": "SPOJ : Aggressive Cows Problem",
+              "links": [
+                {
+                  "platform": "spoj",
+                  "url": "https://www.spoj.com/problems/AGGRCOW/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1552",
+                  "url": "https://leetcode.com/problems/magnetic-force-between-two-balls/description/"
+                }
+              ]
+            },
+            {
+              "id": "split-array-largest-sum",
+              "title": "Split Array largest sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/split-array-largest-sum/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/BRCr"
+                }
+              ]
+            },
+            {
+              "id": "median-of-two-sorted-arrays",
+              "title": "4. Median of Two sorted arrays",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Premium",
+                  "url": "https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/"
+                }
+              ]
+            },
+            {
+              "id": "binary-search-kth-element-of-2-sorted-arrays",
+              "title": "kth element of 2 sorted arrays",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "binary-search-book-allocation-problem",
+              "title": "Book allocation problem",
+              "links": [],
+              "similar": []
+            }
+          ]
+        },
+        {
+          "id": "on-2d-arrays",
+          "title": "On 2D Arrays",
+          "problems": [
+            {
+              "id": "binary-search-find-row-with-maximum-number-of-1-s",
+              "title": "Find row with maximum number of 1's",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "search-a-2d-matrix",
+              "title": "Search in a 2D matrix",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/search-a-2d-matrix/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2468(hard) split message based on limit",
+                  "url": "https://leetcode.com/problems/split-message-based-on-limit/description/"
+                }
+              ]
+            },
+            {
+              "id": "find-a-peak-element-ii",
+              "title": "Find peak element 2",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-a-peak-element-ii/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "162",
+                  "url": "https://leetcode.com/problems/find-peak-element/"
+                },
+                {
+                  "label": "2951",
+                  "url": "https://leetcode.com/problems/find-the-peaks/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-search-gfg-median-in-a-row-wise-sorted-matrix",
+              "title": "gfg : median in a row wise sorted matrix",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strings",
+      "title": "Strings",
+      "groups": [
+        {
+          "id": "easy",
+          "title": "Easy",
+          "problems": [
+            {
+              "id": "remove-outermost-parentheses",
+              "title": "Remove Outermost parentheses",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-outermost-parentheses/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1487",
+                  "url": "https://leetcode.com/problems/making-file-names-unique/description/"
+                },
+                {
+                  "label": "premium",
+                  "url": "https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/description/"
+                },
+                {
+                  "label": "premium",
+                  "url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/"
+                }
+              ]
+            },
+            {
+              "id": "largest-odd-number-in-string",
+              "title": "Largest Odd number in string",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/largest-odd-number-in-string/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2264",
+                  "url": "https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/"
+                }
+              ]
+            },
+            {
+              "id": "longest-common-prefix",
+              "title": "Longest Common Prefix",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-common-prefix/description/"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        },
+        {
+          "id": "medium",
+          "title": "Medium",
+          "problems": [
+            {
+              "id": "sort-characters-by-frequency",
+              "title": "Sort characters by frequency",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sort-characters-by-frequency/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/hOhx"
+                }
+              ]
+            },
+            {
+              "id": "maximum-nesting-depth-of-the-parentheses",
+              "title": "Maximum nesting depth of paranthesis",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1111",
+                  "url": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/"
+                }
+              ]
+            },
+            {
+              "id": "roman-to-integer",
+              "title": "roman to integer",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/roman-to-integer/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "12",
+                  "url": "https://leetcode.com/problems/integer-to-roman/description/"
+                }
+              ]
+            },
+            {
+              "id": "strings-count-number-of-substring",
+              "title": "Count number of substring",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "sum-of-beauty-of-all-substrings",
+              "title": "Beauty of all substrings",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "string-to-integer-atoi",
+              "title": "implemenation of atoi()",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/string-to-integer-atoi/submissions/1299993202/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "7",
+                  "url": "https://leetcode.com/problems/reverse-integer/description/"
+                },
+                {
+                  "label": "65",
+                  "url": "https://leetcode.com/problems/valid-number/description/"
+                },
+                {
+                  "label": "2042",
+                  "url": "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/description/"
+                }
+              ]
+            },
+            {
+              "id": "longest-palindromic-substring",
+              "title": "Longest Palindrome",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-palindromic-substring/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/Yp97"
+                },
+                {
+                  "label": "cses longest palindrone",
+                  "url": "https://cses.fi/problemset/task/1111"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linked-list",
+      "title": "Linked List",
+      "groups": [
+        {
+          "id": "learning",
+          "title": "Learning",
+          "problems": [
+            {
+              "id": "linked-list-arrays-to-linked-list",
+              "title": "Arrays to Linked List",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/introduction-to-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-inserting-at-the-end",
+              "title": "Inserting at the end",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1",
+                  "url": "https://www.geeksforgeeks.org/problems/linked-list-insertion-at-beginning/0"
+                },
+                {
+                  "label": "2",
+                  "url": "https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/0"
+                }
+              ]
+            },
+            {
+              "id": "delete-node-in-a-linked-list",
+              "title": "Deleting a node in LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-length-of-a-ll",
+              "title": "Length of a LL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-search-in-a-ll",
+              "title": "Search in a LL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        },
+        {
+          "id": "doubly-linked-list-learning",
+          "title": "Doubly Linked List : Learning",
+          "problems": [
+            {
+              "id": "linked-list-introduction-to-a-dll",
+              "title": "Introduction to a DLL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/introduction-to-doubly-linked-list/0"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-insert-a-node-in-a-dll",
+              "title": "Insert a node in a DLL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-delete-node-in-dll",
+              "title": "Delete node in DLL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-reverse-a-dll",
+              "title": "Reverse a DLL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        },
+        {
+          "id": "medium",
+          "title": "Medium",
+          "problems": [
+            {
+              "id": "middle-of-the-linked-list",
+              "title": "Middle of a LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/middle-of-the-linked-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "reverse-linked-list",
+              "title": "Reverse a LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reverse-linked-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-cycle",
+              "title": "Detect loop in LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/linked-list-cycle/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-cycle-ii",
+              "title": "Starting point in LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/linked-list-cycle-ii/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-find-length-of-loop",
+              "title": "Find Length of Loop",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "palindrome-linked-list",
+              "title": "Palindrome LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/palindrome-linked-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "odd-even-linked-list",
+              "title": "Odd Even LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/odd-even-linked-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "remove-nth-node-from-end-of-list",
+              "title": "Remove nth node from end in LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "delete-the-middle-node-of-a-linked-list",
+              "title": "Delete middle node of LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "sort-list",
+              "title": "Sort LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sort-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-sort-a-ll-of-0-s-1-s-and-2-s",
+              "title": "Sort a LL of 0's 1's and 2's",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "intersection-of-two-linked-lists",
+              "title": "Intersection of two LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-add-1-to-ll-number",
+              "title": "Add 1 to LL number",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "add-two-numbers",
+              "title": "Add 2 numbers",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/add-two-numbers/description/"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        },
+        {
+          "id": "doubly-linked-list-medium",
+          "title": "Doubly Linked List : Medium",
+          "problems": [
+            {
+              "id": "linked-list-delete-all-occurences-of-a-key",
+              "title": "Delete all occurences of a key",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-find-pairs-with-given-sum",
+              "title": "Find pairs with given sum",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-remove-duplicates-from-sorted-ll",
+              "title": "Remove Duplicates from sorted LL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/0"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        },
+        {
+          "id": "hard",
+          "title": "Hard",
+          "problems": [
+            {
+              "id": "reverse-nodes-in-k-group",
+              "title": "Reverse K nodes in K groups",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "rotate-list",
+              "title": "Rotate LL",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/rotate-list/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-flattening-of-a-ll",
+              "title": "Flattening of a LL",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "copy-list-with-random-pointer",
+              "title": "Copy List with random Pointer",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/copy-list-with-random-pointer/description/"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "groups": [
+        {
+          "id": "recursion",
+          "title": "Recursion",
+          "problems": [
+            {
+              "id": "generate-parentheses",
+              "title": "Generate Valid parenthesis",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/generate-parentheses/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "17",
+                  "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/"
+                },
+                {
+                  "label": "20",
+                  "url": "https://leetcode.com/problems/valid-parentheses/description/"
+                },
+                {
+                  "label": "2116",
+                  "url": "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/"
+                }
+              ]
+            },
+            {
+              "id": "find-the-winner-of-the-circular-game",
+              "title": "Josepheus Problem",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-the-winner-of-the-circular-game/submissions/1302137770/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1982",
+                  "url": "https://leetcode.com/problems/find-array-given-subset-sums/description/"
+                },
+                {
+                  "label": "2587",
+                  "url": "https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/description/"
+                },
+                {
+                  "label": "3115",
+                  "url": "https://leetcode.com/problems/maximum-prime-difference/description/"
+                }
+              ]
+            },
+            {
+              "id": "generate-parentheses-2",
+              "title": "Generate Paranthesis",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/generate-parentheses/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "letter-combinations-of-a-phone-number",
+              "title": "Letter Case combinations of a phone number",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/submissions/1308854070/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "39",
+                  "url": "https://leetcode.com/problems/combination-sum/description/"
+                },
+                {
+                  "label": "2266",
+                  "url": "https://leetcode.com/problems/count-number-of-texts/description/"
+                },
+                {
+                  "label": "401",
+                  "url": "https://leetcode.com/problems/binary-watch/description/"
+                }
+              ]
+            },
+            {
+              "id": "string-to-integer-atoi-2",
+              "title": "recursive atoi",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/string-to-integer-atoi/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "65",
+                  "url": "https://leetcode.com/problems/valid-number/description/"
+                },
+                {
+                  "label": "2042",
+                  "url": "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/description/"
+                },
+                {
+                  "label": "7",
+                  "url": "https://leetcode.com/problems/reverse-integer/description/"
+                }
+              ]
+            },
+            {
+              "id": "powx-n",
+              "title": "pow(x,n)",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/powx-n/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2550",
+                  "url": "https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/description/"
+                },
+                {
+                  "label": "372",
+                  "url": "https://leetcode.com/problems/super-pow/description/"
+                },
+                {
+                  "label": "69",
+                  "url": "https://leetcode.com/problems/sqrtx/description/"
+                }
+              ]
+            },
+            {
+              "id": "count-good-numbers",
+              "title": "Count good numbers",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/count-good-numbers/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1012",
+                  "url": "https://leetcode.com/problems/numbers-with-repeated-digits/description/"
+                },
+                {
+                  "label": "1317",
+                  "url": "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/description/"
+                },
+                {
+                  "label": "premium",
+                  "url": "https://leetcode.com/problems/the-wording-game/description/"
+                }
+              ]
+            },
+            {
+              "id": "combination-sum",
+              "title": "Combination Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/combination-sum/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/y6Xi"
+                }
+              ]
+            },
+            {
+              "id": "combination-sum-iii",
+              "title": "Combination Sum 3",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/combination-sum-iii/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2968",
+                  "url": "https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/description/"
+                },
+                {
+                  "label": "357",
+                  "url": "https://leetcode.com/problems/count-numbers-with-unique-digits/description/"
+                },
+                {
+                  "label": "3176",
+                  "url": "https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i/description/"
+                }
+              ]
+            },
+            {
+              "id": "combination-sum-ii",
+              "title": "Combination Sum 2",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/combination-sum-ii/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1415",
+                  "url": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/"
+                },
+                {
+                  "label": "1210",
+                  "url": "https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/description/"
+                },
+                {
+                  "label": "2584",
+                  "url": "https://leetcode.com/problems/split-the-array-to-make-coprime-products/description/"
+                }
+              ]
+            },
+            {
+              "id": "subsets-ii",
+              "title": "Subsets 2",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/subsets-ii/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "78",
+                  "url": "https://leetcode.com/problems/subsets/description/"
+                },
+                {
+                  "label": "1982",
+                  "url": "https://leetcode.com/problems/find-array-given-subset-sums/description/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "imp-ones",
+          "title": "Imp ONEs",
+          "problems": [
+            {
+              "id": "palindrome-partitioning",
+              "title": "Palindrome Partitioning",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/palindrome-partitioning/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "132",
+                  "url": "https://leetcode.com/problems/palindrome-partitioning-ii/description/"
+                },
+                {
+                  "label": "1278",
+                  "url": "https://leetcode.com/problems/palindrome-partitioning-iii/description/"
+                },
+                {
+                  "label": "1745 2472",
+                  "url": "https://leetcode.com/problems/palindrome-partitioning-iv/description/"
+                }
+              ]
+            },
+            {
+              "id": "word-search",
+              "title": "Word Search",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/word-search/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "212",
+                  "url": "https://leetcode.com/problems/word-search-ii/description/"
+                }
+              ]
+            },
+            {
+              "id": "n-queens",
+              "title": "N Queens",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/n-queens/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1415",
+                  "url": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/"
+                },
+                {
+                  "label": "46",
+                  "url": "https://leetcode.com/problems/permutations/description/"
+                },
+                {
+                  "label": "2767",
+                  "url": "https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/description/"
+                }
+              ]
+            },
+            {
+              "id": "recursion-m-coloring-problem",
+              "title": "M coloring problem",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "sudoku-solver",
+              "title": "Sudoku Solver",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sudoku-solver/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "recursion-rat-in-a-maze-problem",
+              "title": "Rat in a maze problem",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "sudoku-solver-2",
+              "title": "Sudoku Solver",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sudoku-solver/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Sudoku 2",
+                  "url": "https://leetcode.com/problems/valid-sudoku/"
+                },
+                {
+                  "label": "980",
+                  "url": "https://leetcode.com/problems/unique-paths-iii/description/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bit-manipulation",
+      "title": "Bit Manipulation",
+      "groups": [
+        {
+          "id": "easy",
+          "title": "Easy",
+          "problems": [
+            {
+              "id": "divide-two-integers",
+              "title": "Divide two integers",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/divide-two-integers/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2485 1863",
+                  "url": "https://leetcode.com/problems/find-the-pivot-integer/description/"
+                },
+                {
+                  "label": "398 2750",
+                  "url": "https://leetcode.com/problems/random-pick-index/"
+                },
+                {
+                  "label": "1563",
+                  "url": "https://leetcode.com/problems/stone-game-v/description/"
+                }
+              ]
+            },
+            {
+              "id": "minimum-bit-flips-to-convert-number",
+              "title": "Minimum Bit flips to convert number",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2997",
+                  "url": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/description/"
+                },
+                {
+                  "label": "1318",
+                  "url": "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/"
+                }
+              ]
+            },
+            {
+              "id": "minimum-number-of-operations-to-make-array-xor-equal-to-k",
+              "title": "Minimum no. of operations to make array XOR equal to K",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2713",
+                  "url": "https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/"
+                },
+                {
+                  "label": "1235",
+                  "url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/"
+                },
+                {
+                  "label": "135 done",
+                  "url": "https://leetcode.com/problems/candy/description/"
+                }
+              ]
+            },
+            {
+              "id": "subsets",
+              "title": "Subsets",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/subsets/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1982",
+                  "url": "https://leetcode.com/problems/find-array-given-subset-sums/description/"
+                },
+                {
+                  "label": "2044",
+                  "url": "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/"
+                }
+              ]
+            },
+            {
+              "id": "bit-manipulation-find-xor-in-range-from-l-to-r",
+              "title": "Find XOR in range from L to R",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stack",
+      "title": "Stack",
+      "groups": [
+        {
+          "id": "easy",
+          "title": "Easy",
+          "problems": [
+            {
+              "id": "valid-parentheses",
+              "title": "Valid Paranthesis",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/valid-parentheses/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "32",
+                  "url": "https://leetcode.com/problems/longest-valid-parentheses/description/"
+                },
+                {
+                  "label": "301",
+                  "url": "https://leetcode.com/problems/remove-invalid-parentheses/description/"
+                },
+                {
+                  "label": "1003",
+                  "url": "https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/description/"
+                }
+              ]
+            },
+            {
+              "id": "min-stack",
+              "title": "Min Stack",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/min-stack/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "239",
+                  "url": "https://leetcode.com/problems/sliding-window-maximum/"
+                }
+              ]
+            },
+            {
+              "id": "next-greater-element-i",
+              "title": "Next greater element",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/next-greater-element-i/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/zNjc"
+                }
+              ]
+            },
+            {
+              "id": "trapping-rain-water",
+              "title": "Trapping Rainwater",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/trapping-rain-water/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/NKvI"
+                }
+              ]
+            },
+            {
+              "id": "sum-of-subarray-minimums",
+              "title": "Sum of Subarray Minimums",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sum-of-subarray-minimums/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2104",
+                  "url": "https://leetcode.com/problems/sum-of-subarray-ranges/"
+                },
+                {
+                  "label": "2281",
+                  "url": "https://leetcode.com/problems/sum-of-total-strength-of-wizards/description/"
+                }
+              ]
+            },
+            {
+              "id": "remove-k-digits",
+              "title": "Remove K Digits",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-k-digits/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/WMJg"
+                }
+              ]
+            },
+            {
+              "id": "largest-rectangle-in-histogram",
+              "title": "Largest Rectangle In a histogram",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "85",
+                  "url": "https://leetcode.com/problems/maximal-rectangle/description/"
+                },
+                {
+                  "label": "1793",
+                  "url": "https://leetcode.com/problems/maximum-score-of-a-good-subarray/description/"
+                }
+              ]
+            },
+            {
+              "id": "maximal-rectangle",
+              "title": "Maximal Rectangle",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximal-rectangle/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "221",
+                  "url": "https://leetcode.com/problems/maximal-square/description/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "implementation-problems",
+          "title": "Implementation Problems",
+          "problems": [
+            {
+              "id": "sliding-window-maximum",
+              "title": "Sliding Window Maximum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sliding-window-maximum/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/FyOv"
+                }
+              ]
+            },
+            {
+              "id": "online-stock-span",
+              "title": "Online Stock Span Problem",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/online-stock-span/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "739",
+                  "url": "https://leetcode.com/problems/daily-temperatures/description/"
+                }
+              ]
+            },
+            {
+              "id": "lru-cache",
+              "title": "LRU Cache",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/lru-cache/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "lfu-cache",
+              "title": "LFU Cache",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/lfu-cache/description/"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "stack-celebrity-problem",
+              "title": "Celebrity Problem",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sliding-window",
+      "title": "Sliding Window",
+      "groups": [
+        {
+          "id": "medium",
+          "title": "Medium",
+          "problems": [
+            {
+              "id": "longest-substring-without-repeating-characters",
+              "title": "3. Longest Substring Without Repeating Characters",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/Fr6p"
+                }
+              ]
+            },
+            {
+              "id": "max-consecutive-ones-iii",
+              "title": "Max Consecutive Ones",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/max-consecutive-ones-iii/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/2LkB"
+                }
+              ]
+            },
+            {
+              "id": "fruit-into-baskets",
+              "title": "Fruits Into basket",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/fruit-into-baskets/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2401",
+                  "url": "https://leetcode.com/problems/longest-nice-subarray/description/"
+                },
+                {
+                  "label": "3477",
+                  "url": "https://leetcode.com/problems/fruits-into-baskets-ii/description/"
+                }
+              ]
+            },
+            {
+              "id": "longest-repeating-character-replacement",
+              "title": "Longest repeating character replacement",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-repeating-character-replacement/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/pdI5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "binary-tree",
+      "title": "Binary Tree",
+      "groups": [
+        {
+          "id": "traversal",
+          "title": "Traversal",
+          "problems": [
+            {
+              "id": "binary-tree-intro-to-trees",
+              "title": "INTRO TO TREES",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/introduction-to-trees/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "binary-tree-binary-tree-representation",
+              "title": "Binary Tree Representation",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/binary-tree-representation/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "binary-tree-preorder-traversal",
+              "title": "LC.144 Preorder Traversal in Trees",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "94",
+                  "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/"
+                },
+                {
+                  "label": "589",
+                  "url": "https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/"
+                },
+                {
+                  "label": "2583",
+                  "url": "https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-inorder-traversal",
+              "title": "94. Binary Tree Inorder Traversal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/RGPp"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-postorder-traversal",
+              "title": "145. Binary Tree Postorder Traversal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "590",
+                  "url": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/"
+                },
+                {
+                  "label": "2477",
+                  "url": "https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-level-order-traversal",
+              "title": "102. Binary Tree Level Order Traversal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/gMJx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medium",
+          "title": "Medium",
+          "problems": [
+            {
+              "id": "maximum-depth-of-binary-tree",
+              "title": "Maximum Depth of a binary tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/hRP-"
+                }
+              ]
+            },
+            {
+              "id": "balanced-binary-tree",
+              "title": "Balanced Binary tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/balanced-binary-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "1161",
+                  "url": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/"
+                }
+              ]
+            },
+            {
+              "id": "diameter-of-binary-tree",
+              "title": "Diameter of a Binary Tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/diameter-of-binary-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2246",
+                  "url": "https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-maximum-path-sum",
+              "title": "Binary Tree Maximum Path Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/iW1_"
+                }
+              ]
+            },
+            {
+              "id": "same-tree",
+              "title": "check if two trees are equal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/same-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "865",
+                  "url": "https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/"
+                },
+                {
+                  "label": "2290",
+                  "url": "https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-zigzag-level-order-traversal",
+              "title": "Binary Tree ZigZag traversal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "230",
+                  "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/"
+                },
+                {
+                  "label": "1091",
+                  "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/description/"
+                },
+                {
+                  "label": "695",
+                  "url": "https://leetcode.com/problems/max-area-of-island/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-right-side-view",
+              "title": "Binary tree RIght Side view",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-right-side-view/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "116",
+                  "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/"
+                },
+                {
+                  "label": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1"
+                }
+              ]
+            },
+            {
+              "id": "symmetric-tree",
+              "title": "Symmetric Tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/symmetric-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2556",
+                  "url": "https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/description/"
+                },
+                {
+                  "label": "542",
+                  "url": "https://leetcode.com/problems/01-matrix/description/"
+                },
+                {
+                  "label": "1022",
+                  "url": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hard",
+          "title": "Hard",
+          "problems": [
+            {
+              "id": "binary-tree-root-to-node-in-binary-tree",
+              "title": "Root to Node in Binary tree",
+              "links": [
+                {
+                  "platform": "codingninjas",
+                  "url": "https://www.naukri.com/code360/problems/path-in-a-tree_3843990?leftPanelTabValue=PROBLEM"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "257",
+                  "url": "https://leetcode.com/problems/binary-tree-paths/description/"
+                }
+              ]
+            },
+            {
+              "id": "lowest-common-ancestor-of-a-binary-tree",
+              "title": "Lowest COmmon ancestor of binary tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "Similar list",
+                  "url": "https://p.ip.fi/B8rB"
+                }
+              ]
+            },
+            {
+              "id": "maximum-width-of-binary-tree",
+              "title": "Maximum Width of a Binary Tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "513",
+                  "url": "https://leetcode.com/problems/find-bottom-left-tree-value/description/"
+                },
+                {
+                  "label": "743",
+                  "url": "https://leetcode.com/problems/network-delay-time/description/"
+                },
+                {
+                  "label": "2973",
+                  "url": "https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/description/"
+                }
+              ]
+            },
+            {
+              "id": "binary-tree-children-sum-property",
+              "title": "Children Sum property",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/children-sum-parent/1"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2236",
+                  "url": "https://leetcode.com/problems/root-equals-sum-of-children/description/"
+                }
+              ]
+            },
+            {
+              "id": "all-nodes-distance-k-in-binary-tree",
+              "title": "All Nodes distance K in binary tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "2385",
+                  "url": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/"
+                }
+              ]
+            },
+            {
+              "id": "amount-of-time-for-binary-tree-to-be-infected",
+              "title": "Amount of time for a tree to be infected",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "104",
+                  "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/"
+                },
+                {
+                  "label": "863",
+                  "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/"
+                },
+                {
+                  "label": "2954",
+                  "url": "https://leetcode.com/problems/count-the-number-of-infection-sequences/description/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp",
+      "title": "Dynamic Programming",
+      "groups": [
+        {
+          "id": "dp",
+          "title": "DP",
+          "problems": [
+            {
+              "id": "dp-intro",
+              "title": "INTRO",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/introduction-to-dp/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "climbing-stairs",
+              "title": "Climbing Stairs LC 70",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/climbing-stairs/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "746",
+                  "url": "https://leetcode.com/problems/min-cost-climbing-stairs/description/"
+                },
+                {
+                  "label": "1137",
+                  "url": "https://leetcode.com/problems/n-th-tribonacci-number/description/"
+                },
+                {
+                  "label": "2244",
+                  "url": "https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/"
+                }
+              ]
+            },
+            {
+              "id": "dp-frog-jump",
+              "title": "Frog Jump",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/geek-jump/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "dp-frog-jump-modified",
+              "title": "Frog Jump Modified",
+              "links": [
+                {
+                  "platform": "gfg",
+                  "url": "https://www.geeksforgeeks.org/problems/minimal-cost/1"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "house-robber",
+              "title": "LC 198 : House Robber",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/house-robber/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "LC 213",
+                  "url": "https://leetcode.com/problems/house-robber-ii/description/"
+                },
+                {
+                  "label": "Premium1 Premium2",
+                  "url": "https://leetcode.com/problems/paint-house/description/"
+                }
+              ]
+            },
+            {
+              "id": "house-robber-ii",
+              "title": "213. House Robber",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/house-robber-ii/description/"
+                }
+              ],
+              "similar": [
+                {
+                  "label": "LC 198",
+                  "url": "https://leetcode.com/problems/house-robber/description/"
+                },
+                {
+                  "label": "Prem1 Prem2 Prem3",
+                  "url": "https://leetcode.com/problems/paint-house/description/"
+                },
+                {
+                  "label": "337 600",
+                  "url": "https://leetcode.com/problems/house-robber-iii/description/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

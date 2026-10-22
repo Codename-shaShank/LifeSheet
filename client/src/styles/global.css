@@ -1,0 +1,423 @@
+/* Design tokens — sampled from the reference screenshots. */
+:root {
+  color-scheme: dark;
+
+  --bg: #0c0c0e;          /* gutter between panels */
+  --panel: #141416;       /* sidebar, top bar, main panel */
+  --surface: #18181b;     /* cards, tree container, planner */
+  --surface-2: #1f1f23;   /* expanded problem box, inputs */
+  --surface-3: #28282d;   /* active nav item, buttons */
+  --border: #26262b;
+  --border-strong: #35353b;
+
+  --text: #ededf0;
+  --text-2: #b6b6bd;
+  --muted: #7d7d86;
+
+  --accent: #3b82f6;
+  --accent-soft: rgba(59, 130, 246, 0.14);
+  --success: #2ea44f;
+  --danger: #f05252;
+  --amber: #f5a524;
+
+  --radius-lg: 14px;
+  --radius: 10px;
+  --radius-sm: 8px;
+
+  --font: 'DM Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
+
+  --sidebar-w: 220px;
+  --planner-w: 296px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 0.92em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+
+.fullscreen-center {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+}
+
+/* ───────── Buttons ───────── */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 13px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-3);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.12s;
+}
+
+.btn:hover:not(:disabled) {
+  background: #32323a;
+}
+
+.btn:disabled {
+  opacity: 0.55;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #2f74e6;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-2);
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: var(--surface-2);
+}
+
+.btn-success {
+  background: rgba(46, 164, 79, 0.16);
+  color: #5fd383;
+}
+
+.btn.is-saved {
+  color: var(--accent);
+}
+
+.btn-block {
+  width: 100%;
+  justify-content: center;
+  padding: 10px 14px;
+}
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  color: var(--text-2);
+  transition: background 0.12s, color 0.12s;
+}
+
+.icon-btn:hover:not(:disabled):not(.is-disabled) {
+  background: var(--surface-3);
+  color: var(--text);
+}
+
+.icon-btn.is-disabled,
+.icon-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ───────── Progress bar ───────── */
+
+.progress {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 99px;
+  background: #2c2c32;
+}
+
+.progress-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 0.25s ease;
+}
+
+.progress-mini {
+  width: 72px;
+  height: 3px;
+}
+
+.progress-md {
+  width: 100%;
+  height: 4px;
+}
+
+.progress-lg {
+  width: 100%;
+  height: 6px;
+}
+
+/* ───────── Checkbox ───────── */
+
+.checkbox {
+  position: relative;
+  display: inline-grid;
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+
+.checkbox input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-box {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1.5px solid var(--border-strong);
+  background: var(--surface);
+  color: #fff;
+  pointer-events: none;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.checkbox-box svg {
+  opacity: 0;
+}
+
+.checkbox input:checked + .checkbox-box {
+  background: var(--success);
+  border-color: var(--success);
+}
+
+.checkbox input:checked + .checkbox-box svg {
+  opacity: 1;
+}
+
+.checkbox input:focus-visible + .checkbox-box {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ───────── Form fields ───────── */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.field label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+  padding: 9px 11px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--surface-2);
+  transition: border-color 0.12s;
+}
+
+.field textarea {
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #5d5d66;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.field-hint {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.form-error {
+  margin: 10px 0;
+  padding: 9px 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(240, 82, 82, 0.1);
+  color: #ff8a8a;
+  font-size: 13px;
+}
+
+/* ───────── Modal (native <dialog>) ───────── */
+
+.modal {
+  width: min(680px, calc(100vw - 32px));
+  max-height: calc(100vh - 48px);
+  padding: 0;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+  color: var(--text);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 50px);
+}
+
+.modal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-kicker {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.modal-head h2 {
+  margin-top: 2px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.modal-loading {
+  padding: 24px 20px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 16px;
+  padding: 18px 20px;
+  overflow: auto;
+}
+
+.notes-grid .span-2 {
+  grid-column: 1 / -1;
+}
+
+.modal-body > .form-error {
+  margin: 0 20px 12px;
+}
+
+.modal-foot {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 14px 20px;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 560px) {
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

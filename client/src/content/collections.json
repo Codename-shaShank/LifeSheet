@@ -1,0 +1,6 @@
+[
+  { "id": "dsa", "title": "DSA", "enabled": true },
+  { "id": "core-cs", "title": "Core CS", "enabled": false },
+  { "id": "system-design", "title": "System Design", "enabled": false },
+  { "id": "data-engineering", "title": "Data Engineering", "enabled": false }
+]
