@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 /** items: [{ label, to? }] — the last item is the current page. */
 export default function Breadcrumb({ items }) {

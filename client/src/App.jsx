@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router';
 import AppShell from './components/layout/AppShell.jsx';
 import { PublicOnly, RequireAuth } from './components/common/RouteGuards.jsx';
 import ComingSoon from './components/common/ComingSoon.jsx';

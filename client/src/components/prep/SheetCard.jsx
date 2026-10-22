@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { ArrowRight, Clock, FileText, Layers, ListOrdered, Trophy } from 'lucide-react';
 import { loadSheet } from '../../lib/content.js';
 import { useContent } from '../../hooks/useContent.js';

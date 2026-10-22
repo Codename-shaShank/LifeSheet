@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { CircleCheck } from 'lucide-react';
 import Breadcrumb from '../components/common/Breadcrumb.jsx';
 import EmptyState from '../components/common/EmptyState.jsx';

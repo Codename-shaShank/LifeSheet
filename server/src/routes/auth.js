@@ -46,7 +46,7 @@ router.post(
   '/signup',
   authLimiter,
   asyncHandler(async (req, res) => {
-    const { name, username, email, password, inviteCode } = signupSchema.parse(req.body);
+    const { name, username, email, password, inviteCode } = signupSchema.parse(req.body ?? {});
 
     if (env.SIGNUP_INVITE_CODE && !safeEqual(inviteCode, env.SIGNUP_INVITE_CODE)) {
       throw new HttpError(403, 'That invite code isn’t valid');
@@ -75,7 +75,7 @@ router.post(
   '/login',
   authLimiter,
   asyncHandler(async (req, res) => {
-    const { identifier, password } = loginSchema.parse(req.body);
+    const { identifier, password } = loginSchema.parse(req.body ?? {});
     const query = identifier.includes('@') ? { email: identifier } : { username: identifier };
     const user = await User.findOne(query).select('+passwordHash');
 

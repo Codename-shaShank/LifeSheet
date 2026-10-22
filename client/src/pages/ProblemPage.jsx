@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router';
 import { Bookmark, Check, ExternalLink, FileText, Send, Sparkles, SquarePen } from 'lucide-react';
 import Breadcrumb from '../components/common/Breadcrumb.jsx';
 import EmptyState from '../components/common/EmptyState.jsx';

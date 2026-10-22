@@ -112,6 +112,11 @@ Notes keys are not fixed on the server (regex-validated), so adding a field in
 
 ## Commands
 
+Node 24 LTS (`.nvmrc`, `engines.node` = `24.x`). Main versions: React 19, React Router 8 (import from
+`react-router`, there is no `react-router-dom`), Vite 8, Express 5, Mongoose 9, Zod 4.
+The server loads `server/.env` with `node --env-file-if-exists=.env`; on Render there is no file
+and the real env vars are used.
+
 ```
 cd client && npm install && npm run ingest -- ./LIFE_SHEET.xlsx && npm run dev   # :5173
 cd server && npm install && npm run dev                                          # :5000, needs .env

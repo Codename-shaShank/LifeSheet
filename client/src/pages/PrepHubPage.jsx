@@ -1,4 +1,4 @@
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router';
 import SheetCard from '../components/prep/SheetCard.jsx';
 import { collections, loadHub } from '../lib/content.js';
 import { useContent } from '../hooks/useContent.js';

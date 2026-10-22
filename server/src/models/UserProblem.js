@@ -30,7 +30,7 @@ userProblemSchema.index({ userId: 1, problemId: 1 }, { unique: true });
  */
 userProblemSchema.statics.upsertFor = async function upsertFor(userId, problemId, update, select) {
   const run = () =>
-    this.findOneAndUpdate({ userId, problemId }, update, { upsert: true, new: true, setDefaultsOnInsert: true })
+    this.findOneAndUpdate({ userId, problemId }, update, { upsert: true, returnDocument: 'after', setDefaultsOnInsert: true })
       .select(select)
       .lean();
   try {

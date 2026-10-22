@@ -1,9 +1,10 @@
 # LifeSheet
 
-Personal DSA prep tracker (≤ 5 users). React + Vite frontend, Express + MongoDB backend.
+Personal DSA prep tracker (≤ 5 users). React 19 + Vite 8 frontend, Express 5 + MongoDB
+(Mongoose 9) backend. Needs **Node 24 LTS** (see `.nvmrc`).
 
 ```
-lifesheet/
+LifeSheet/
 ├── client/                     React + Vite SPA
 │   ├── scripts/ingest.mjs      LIFE_SHEET.xlsx → src/content/sheets/*.json
 │   ├── src/content/            all problem content (mapping-driven JSON)

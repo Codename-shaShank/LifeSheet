@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { ChevronRight, LogOut, Moon, Palette } from 'lucide-react';
 import { USER_MENU } from '../../config/navigation.js';
 import { useAuth } from '../../context/AuthContext.jsx';

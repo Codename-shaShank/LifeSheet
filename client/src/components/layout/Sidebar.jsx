@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router';
 import { ChevronDown, ChevronUp, PanelLeft } from 'lucide-react';
 import { NAV_SECTIONS } from '../../config/navigation.js';
 import { useAuth } from '../../context/AuthContext.jsx';

@@ -7,7 +7,10 @@ export class HttpError extends Error {
   }
 }
 
-/** Express 4 doesn't catch rejected promises — route handlers go through this. */
+/**
+ * Express 5 forwards rejected promises to the error handler on its own. Kept so every route
+ * reads the same and stays correct if a handler is ever mounted outside Express's router.
+ */
 export const asyncHandler = (fn) => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(next);
 
 export function notFound(req, _res, next) {

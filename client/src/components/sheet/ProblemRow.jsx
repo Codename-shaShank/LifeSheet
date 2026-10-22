@@ -1,5 +1,5 @@
 import { memo, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { Bookmark, Check, Code, EllipsisVertical, FileText, SquarePen } from 'lucide-react';
 import { platformOf } from '../../lib/platforms.js';
 

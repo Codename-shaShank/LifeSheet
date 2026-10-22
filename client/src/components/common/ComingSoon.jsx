@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { Lock } from 'lucide-react';
 import EmptyState from './EmptyState.jsx';
 
