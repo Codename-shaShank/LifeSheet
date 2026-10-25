@@ -38,6 +38,21 @@ table looks right. **Commit the generated JSON** — Vercel builds from it and n
 Links must be whole-cell hyperlinks (Insert → Link on the cell). Links on part of a cell's
 text are not exported by Google Sheets.
 
+Ingest also post-processes the content (needs internet):
+
+- `p.ip.fi` pastes in the SQ columns are opened, and each problem link inside becomes its own
+  "similar problem" chip.
+- Titles are cleaned: LeetCode problems get their official title, others lose `GFG :` / `152.`
+  style prefixes. Force a title with `titleOverrides` in `scripts/ingest.config.mjs`.
+  Problem ids never change, so saved progress is kept.
+
+To re-run just these steps on the committed JSON (no xlsx needed):
+
+```bash
+cd client
+npm run refresh
+```
+
 ## 2. Run locally
 
 ```bash

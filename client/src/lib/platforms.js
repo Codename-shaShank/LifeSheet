@@ -10,8 +10,8 @@ export const PLATFORMS = {
   cses: { label: 'CSES', color: '#9aa0ff' },
   hackerrank: { label: 'HackerRank', color: '#2ec866' },
   interviewbit: { label: 'InterviewBit', color: '#4aa3df' },
-  takeuforward: { label: 'takeUforward', color: '#d6d6dc' },
-  other: { label: 'Problem link', color: '#b9b9c0' },
+  takeuforward: { label: 'takeUforward', color: 'var(--platform-neutral)' },
+  other: { label: 'Problem link', color: 'var(--platform-other)' },
 };
 
 export const platformOf = (key) => PLATFORMS[key] ?? PLATFORMS.other;

@@ -29,6 +29,19 @@ export default {
     'LINKED LIST::LINKED LIST : LEARNING#2': 'Doubly Linked List : Learning',
   },
 
+  // Problem titles by problem id. Wins over the official LeetCode title and the automatic cleanup.
+  titleOverrides: {
+    'binary-tree-intro-to-trees': 'Introduction to Trees',
+    'dp-intro': 'Introduction to DP',
+  },
+
+  // Spelling fixes applied to non-LeetCode titles (LeetCode problems use their official title).
+  titleFixes: {
+    Subaray: 'Subarray',
+    occurences: 'Occurrences',
+    Paranthesis: 'Parenthesis',
+  },
+
   // Escape hatches when the automatic group-row detection guesses wrong.
   forceGroupTitles: [], // e.g. 'RECURSION::RECURSION'
   forceProblems: [], // e.g. 'ARRAYS::KADANE\'S ALGORITHM'

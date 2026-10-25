@@ -12,6 +12,9 @@
  *     go into an implicit group, which the UI renders flat under the module.
  *   • Every other row with text in the question column is a problem. Its hyperlink becomes
  *     the platform link; SQ1–SQ3 become "similar" links (LeetCode numbers → search links).
+ *     A p.ip.fi paste in an SQ cell is fetched and replaced by the problem links listed in it.
+ *   • Titles are cleaned last: LeetCode problems get their official title, others lose
+ *     "GFG :" / "152." style prefixes (see scripts/titles.mjs and titleOverrides in the config).
  *   • Personal columns (DIFFICULTY, TAKEAWAYS, APPROACH, TC, SC, …) are ignored on purpose:
  *     notes are user data and live in MongoDB, entered through the Notes modal.
  *
@@ -24,6 +27,8 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import config from './ingest.config.mjs';
+import { dedupeLinks, detectPlatform, expandPastes, isHttp, labelForUrl, lcSlugOf } from './links.mjs';
+import { cleanTitles } from './titles.mjs';
 
 const CLIENT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -31,7 +36,6 @@ const CLIENT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 
 const squash = (s) => String(s ?? '').replace(/\s+/g, ' ').trim();
 const norm = (s) => squash(s).toUpperCase();
-const isHttp = (u) => /^https?:\/\//i.test(u ?? '');
 
 const slugify = (s) =>
   squash(s)
@@ -41,12 +45,6 @@ const slugify = (s) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
     .slice(0, 80) || 'item';
-
-const titleFromSlug = (slug) =>
-  slug
-    .split('-')
-    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
-    .join(' ');
 
 /** ARRAYS → Arrays, on → On; short acronyms (DP, LL) and mixed words (2D, ONEs) are kept. */
 function smartTitle(s) {
@@ -68,41 +66,9 @@ function uniqueId(base, used) {
   return id;
 }
 
-const lcSlugOf = (url) => url?.match(/leetcode\.com\/problems\/([a-z0-9-]+)/i)?.[1]?.toLowerCase() ?? null;
-
-// ───────────────────────── platforms & links ─────────────────────────
-
-const PLATFORM_HOSTS = [
-  ['leetcode.com', 'leetcode'],
-  ['geeksforgeeks.org', 'gfg'],
-  ['naukri.com/code360', 'codingninjas'],
-  ['codingninjas.com', 'codingninjas'],
-  ['spoj.com', 'spoj'],
-  ['codeforces.com', 'codeforces'],
-  ['cses.fi', 'cses'],
-  ['hackerrank.com', 'hackerrank'],
-  ['interviewbit.com', 'interviewbit'],
-  ['takeuforward.org', 'takeuforward'],
-];
-
-const detectPlatform = (url) => {
-  const u = url.toLowerCase();
-  return PLATFORM_HOSTS.find(([host]) => u.includes(host))?.[1] ?? 'other';
-};
+// ───────────────────────── similar links ─────────────────────────
 
 const LC_SEARCH = (n) => `https://leetcode.com/problemset/?search=${n}`;
-
-function labelForUrl(url) {
-  try {
-    const { hostname, pathname } = new URL(url);
-    if (hostname === 'p.ip.fi') return 'Similar list';
-    const slug = lcSlugOf(url);
-    if (hostname.endsWith('leetcode.com') && slug) return titleFromSlug(slug);
-    return hostname.replace(/^www\./, '') + (pathname.length > 1 ? pathname : '');
-  } catch {
-    return 'Link';
-  }
-}
 
 /** One SQ cell → zero or more { label, url } entries. */
 function parseSimilar({ text, url }) {
@@ -114,16 +80,6 @@ function parseSimilar({ text, url }) {
     return (text.match(/\d{1,4}/g) ?? []).map((n) => ({ label: `LC ${n}`, url: LC_SEARCH(n) }));
   }
   return [{ label: text, url: null }]; // free text like "Wiggle Sort" — kept as a label
-}
-
-function dedupeLinks(links) {
-  const seen = new Set();
-  return links.filter((l) => {
-    const key = `${l.label}|${l.url}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
 }
 
 // ───────────────────────── cells & rows ─────────────────────────
@@ -201,16 +157,9 @@ function groupTitle(tab, raw, occurrence) {
   return m && norm(m[1]) === norm(tab) ? smartTitle(m[2]) : smartTitle(raw);
 }
 
-/** "LC : 3" with a LeetCode link → "3. Longest Substring Without Repeating Characters". */
-function problemTitle(text, url) {
-  const bare = text.match(/^(?:lc|leetcode)\s*[:.]?\s*(\d+)\.?$/i);
-  const slug = lcSlugOf(url);
-  return bare && slug ? `${bare[1]}. ${titleFromSlug(slug)}` : text;
-}
-
 function buildProblem({ tab, moduleId, row, q, cols, usedIds, warnings }) {
   const url = q.url;
-  const title = problemTitle(q.text, url);
+  const title = q.text; // tidied later by cleanTitles
   const id = uniqueId(lcSlugOf(url) ?? `${moduleId}-${slugify(title)}`, usedIds);
   const similar = dedupeLinks(cols.similar.flatMap((col) => (row.cells[col] ? parseSimilar(row.cells[col]) : [])));
   if (!url) warnings.push(`${tab} row ${row.rowNumber}: "${title}" has no link`);
@@ -282,6 +231,9 @@ async function main() {
     if (module.groups.length) modules.push(module);
     else warnings.push(`Tab "${tab}" has no problems — skipped`);
   }
+
+  await expandPastes(modules, warnings);
+  await cleanTitles(modules, warnings);
 
   const sheet = {
     ...config.sheet,

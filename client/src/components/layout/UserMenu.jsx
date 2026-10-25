@@ -1,10 +1,12 @@
 import { useNavigate } from 'react-router';
-import { ChevronRight, LogOut, Moon, Palette } from 'lucide-react';
+import { ChevronRight, LogOut, Moon, Palette, Sun } from 'lucide-react';
 import { USER_MENU } from '../../config/navigation.js';
 import { useAuth } from '../../context/AuthContext.jsx';
+import { useTheme } from '../../lib/theme.js';
 
 export default function UserMenu({ onDone }) {
   const { logout } = useAuth();
+  const { theme, toggle } = useTheme();
   const navigate = useNavigate();
 
   const handleItem = (item) => {
@@ -24,16 +26,19 @@ export default function UserMenu({ onDone }) {
 
       <div className="menu-sep" />
 
-      {/* FUTURE: light theme. The app is dark-only for now, so the switch is shown on and inert. */}
-      <div className="menu-item is-static">
+      <button
+        type="button"
+        role="menuitemcheckbox"
+        aria-checked={theme === 'dark'}
+        className="menu-item"
+        onClick={toggle}
+      >
         <Palette size={16} strokeWidth={1.8} />
-        <span>Theme</span>
-        <span className="theme-switch" aria-hidden="true">
-          <span className="theme-knob">
-            <Moon size={11} />
-          </span>
+        <span>{theme === 'dark' ? 'Dark mode' : 'Light mode'}</span>
+        <span className={`theme-switch${theme === 'dark' ? ' is-on' : ''}`} aria-hidden="true">
+          <span className="theme-knob">{theme === 'dark' ? <Moon size={11} /> : <Sun size={11} />}</span>
         </span>
-      </div>
+      </button>
 
       <div className="menu-sep" />
 
