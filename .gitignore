@@ -5,8 +5,11 @@ dist/
 .DS_Store
 *.log
 
-# Your personal spreadsheet. The generated JSON in client/src/content/sheets IS committed.
+# Local content tooling and its inputs. The generated JSON in client/src/content/sheets IS committed.
+client/scripts/
+client/data/
 *.xlsx
+*.csv
 
 *.zip
 CLAUDE.md

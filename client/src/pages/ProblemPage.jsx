@@ -6,7 +6,7 @@ import EmptyState from '../components/common/EmptyState.jsx';
 import NotesModal from '../components/sheet/NotesModal.jsx';
 import { useProgress } from '../context/ProgressContext.jsx';
 import { useContent } from '../hooks/useContent.js';
-import { loadSheet, loadSolution } from '../lib/content.js';
+import { loadSheet, loadSolution, sheetCrumbs } from '../lib/content.js';
 import { platformOf } from '../lib/platforms.js';
 
 export default function ProblemPage() {
@@ -40,11 +40,7 @@ export default function ProblemPage() {
   return (
     <div className="page problem-page">
       <Breadcrumb
-        items={[
-          { label: 'Prep Hub', to: '/prep' },
-          { label: sheet.title, to: `/prep/${sheetId}` },
-          { label: problem.title },
-        ]}
+        items={[...sheetCrumbs({ ...sheet, id: sheetId }), { label: problem.title }]}
       />
 
       <div className="problem-layout">

@@ -1,0 +1,12 @@
+{
+  "categories": [
+    { "id": "last-30-days", "title": "Last 30 Days", "file": "thirty days" },
+    { "id": "last-3-months", "title": "Last 3 Months", "file": "three months" },
+    { "id": "last-6-months", "title": "Last 6 Months", "file": "six months" },
+    { "id": "older", "title": "More Than 6 Months", "file": "more than six months" },
+    { "id": "all", "title": "All", "file": "all" }
+  ],
+  "companies": [
+    { "id": "amazon", "title": "Amazon" }
+  ]
+}

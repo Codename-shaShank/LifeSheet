@@ -13,6 +13,11 @@
           "hours": 131.4
         }
       ]
+    },
+    {
+      "id": "company-wise",
+      "title": "Company Wise",
+      "kind": "companies"
     }
   ]
 }

@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage.jsx';
 import SignupPage from './pages/SignupPage.jsx';
 import PrepHubPage from './pages/PrepHubPage.jsx';
 import SheetPage from './pages/SheetPage.jsx';
+import CompanyPage from './pages/CompanyPage.jsx';
 import ProblemPage from './pages/ProblemPage.jsx';
 import MySpacesPage from './pages/MySpacesPage.jsx';
 import DashboardPage from './pages/DashboardPage.jsx';
@@ -19,6 +20,7 @@ export default function App() {
       <Route element={<RequireAuth><AppShell /></RequireAuth>}>
         <Route index element={<Navigate to="/prep" replace />} />
         <Route path="prep" element={<PrepHubPage />} />
+        <Route path="prep/company/:companyId" element={<CompanyPage />} />
         <Route path="prep/:sheetId" element={<SheetPage />} />
         <Route path="prep/:sheetId/problem/:problemId" element={<ProblemPage />} />
         <Route path="dashboard" element={<DashboardPage />} />

@@ -1,6 +1,7 @@
 import { useSearchParams } from 'react-router';
+import CompanyCard from '../components/prep/CompanyCard.jsx';
 import SheetCard from '../components/prep/SheetCard.jsx';
-import { collections, loadHub } from '../lib/content.js';
+import { collections, companies, loadHub } from '../lib/content.js';
 import { useContent } from '../hooks/useContent.js';
 
 export default function PrepHubPage() {
@@ -36,9 +37,10 @@ export default function PrepHubPage() {
             {section.title}
           </h2>
           <div className="sheet-grid">
-            {section.sheets.map((card) => (
-              <SheetCard key={card.id} card={card} />
-            ))}
+            {/* "kind": "companies" sections list every company from content/companies.json. */}
+            {section.kind === 'companies'
+              ? companies.map((company) => <CompanyCard key={company.id} company={company} />)
+              : section.sheets.map((card) => <SheetCard key={card.id} card={card} />)}
           </div>
         </section>
       ))}

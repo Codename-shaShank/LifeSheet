@@ -1,5 +1,4 @@
-// Platform key (written by the ingest script) → how its link icon looks.
-// Add a platform here and in PLATFORM_HOSTS in scripts/ingest.mjs.
+// Platform key (stored on each problem link) → how its link icon looks.
 
 export const PLATFORMS = {
   leetcode: { label: 'LeetCode', color: '#f5a524' },

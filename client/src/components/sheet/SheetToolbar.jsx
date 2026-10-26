@@ -11,12 +11,6 @@ const TOOLS = [
 
 export default function SheetToolbar() {
   return (
-    <div className="sheet-toolbar" role="toolbar" aria-label="Sheet tools">
-      {TOOLS.map(({ label, icon: Icon }) => (
-        <button key={label} type="button" className="tool-btn" aria-label={label} title={label}>
-          <Icon size={15} />
-        </button>
-      ))}
-    </div>
+    <div className="sheet-toolbar" role="toolbar" aria-label="Sheet tools"></div>
   );
 }

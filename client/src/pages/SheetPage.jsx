@@ -10,7 +10,7 @@ import NotesModal from '../components/sheet/NotesModal.jsx';
 import { useProgress } from '../context/ProgressContext.jsx';
 import { useContent } from '../hooks/useContent.js';
 import { usePersistentSet } from '../hooks/usePersistentState.js';
-import { loadSheet } from '../lib/content.js';
+import { loadSheet, sheetCrumbs } from '../lib/content.js';
 import { SHEET_KEY, computeStats, findUpNext, groupKey } from '../lib/sheetTree.js';
 
 const FOCUS_MS = 2200;
@@ -50,8 +50,8 @@ function SheetView({ sheetId }) {
       <div className="page">
         <EmptyState
           icon={FileText}
-          title="This sheet hasn’t been generated yet"
-          body="Run npm run ingest in the client folder to build it from your spreadsheet."
+          title="This sheet isn’t available yet"
+          body="Its problems haven’t been added. Check back soon."
           action={<Link to="/prep" className="btn">Back to Prep Hub</Link>}
         />
       </div>
@@ -60,7 +60,7 @@ function SheetView({ sheetId }) {
 
   return (
     <div className="page">
-      <Breadcrumb items={[{ label: 'Prep Hub', to: '/prep' }, { label: sheet.title }]} />
+      <Breadcrumb items={sheetCrumbs(sheet)} />
       <SheetHeader sheet={sheet} overall={stats.get(SHEET_KEY)} upNext={upNext} onUpNext={jumpToUpNext} />
       {progress.status === 'error' && (
         <p className="form-error" role="alert">

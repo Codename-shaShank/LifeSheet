@@ -1,0 +1,1281 @@
+{
+  "id": "amazon-last-30-days",
+  "title": "Amazon · Last 30 Days",
+  "description": "Problems asked in Amazon interviews (last 30 days), most frequent first.",
+  "company": "amazon",
+  "category": "last-30-days",
+  "generatedAt": "2026-10-26T18:39:30.967Z",
+  "modules": [
+    {
+      "id": "easy",
+      "title": "Easy",
+      "groups": [
+        {
+          "id": "easy",
+          "title": "Easy",
+          "implicit": true,
+          "problems": [
+            {
+              "id": "two-sum",
+              "title": "Two Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/two-sum"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "best-time-to-buy-and-sell-stock",
+              "title": "Best Time to Buy and Sell Stock",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "move-zeroes",
+              "title": "Move Zeroes",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/move-zeroes"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "valid-parentheses",
+              "title": "Valid Parentheses",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/valid-parentheses"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "binary-search",
+              "title": "Binary Search",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-search"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-common-prefix",
+              "title": "Longest Common Prefix",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-common-prefix"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "linked-list-cycle",
+              "title": "Linked List Cycle",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/linked-list-cycle"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "valid-anagram",
+              "title": "Valid Anagram",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/valid-anagram"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "sqrtx",
+              "title": "Sqrt(x)",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sqrtx"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "fizz-buzz",
+              "title": "Fizz Buzz",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/fizz-buzz"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "concatenation-of-array",
+              "title": "Concatenation of Array",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/concatenation-of-array"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "contains-duplicate-ii",
+              "title": "Contains Duplicate II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/contains-duplicate-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "length-of-last-word",
+              "title": "Length of Last Word",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/length-of-last-word"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "palindrome-number",
+              "title": "Palindrome Number",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/palindrome-number"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "add-two-integers",
+              "title": "Add Two Integers",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/add-two-integers"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "find-if-path-exists-in-graph",
+              "title": "Find if Path Exists in Graph",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-if-path-exists-in-graph"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "logger-rate-limiter",
+              "title": "Logger Rate Limiter",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/logger-rate-limiter"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "remove-duplicates-from-sorted-array",
+              "title": "Remove Duplicates from Sorted Array",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "remove-outermost-parentheses",
+              "title": "Remove Outermost Parentheses",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-outermost-parentheses"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "reverse-string",
+              "title": "Reverse String",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reverse-string"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "jewels-and-stones",
+              "title": "Jewels and Stones",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/jewels-and-stones"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "range-sum-query-immutable",
+              "title": "Range Sum Query - Immutable",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/range-sum-query-immutable"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "sort-array-by-parity-ii",
+              "title": "Sort Array By Parity II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/sort-array-by-parity-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "richest-customer-wealth",
+              "title": "Richest Customer Wealth",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/richest-customer-wealth"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "merge-two-sorted-lists",
+              "title": "Merge Two Sorted Lists",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/merge-two-sorted-lists"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "single-number",
+              "title": "Single Number",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/single-number"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "convert-sorted-array-to-binary-search-tree",
+              "title": "Convert Sorted Array to Binary Search Tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "title": "Medium",
+      "groups": [
+        {
+          "id": "medium",
+          "title": "Medium",
+          "implicit": true,
+          "problems": [
+            {
+              "id": "maximum-coins-from-k-consecutive-bags",
+              "title": "Maximum Coins From K Consecutive Bags",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-substring-without-repeating-characters",
+              "title": "Longest Substring Without Repeating Characters",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "number-of-islands",
+              "title": "Number of Islands",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/number-of-islands"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "lowest-common-ancestor-of-a-binary-tree",
+              "title": "Lowest Common Ancestor of a Binary Tree",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "valid-sudoku",
+              "title": "Valid Sudoku",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/valid-sudoku"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "subarray-sum-equals-k",
+              "title": "Subarray Sum Equals K",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/subarray-sum-equals-k"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "generate-parentheses",
+              "title": "Generate Parentheses",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/generate-parentheses"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "group-anagrams",
+              "title": "Group Anagrams",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/group-anagrams"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "lru-cache",
+              "title": "LRU Cache",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/lru-cache"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "container-with-most-water",
+              "title": "Container With Most Water",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/container-with-most-water"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "add-two-numbers",
+              "title": "Add Two Numbers",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/add-two-numbers"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "house-robber",
+              "title": "House Robber",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/house-robber"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "max-consecutive-ones-iii",
+              "title": "Max Consecutive Ones III",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/max-consecutive-ones-iii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "merge-intervals",
+              "title": "Merge Intervals",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/merge-intervals"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "task-scheduler",
+              "title": "Task Scheduler",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/task-scheduler"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "coin-change",
+              "title": "Coin Change",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/coin-change"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+              "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "product-of-array-except-self",
+              "title": "Product of Array Except Self",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/product-of-array-except-self"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "koko-eating-bananas",
+              "title": "Koko Eating Bananas",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/koko-eating-bananas"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "3sum",
+              "title": "3Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/3sum"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-palindromic-substring",
+              "title": "Longest Palindromic Substring",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-palindromic-substring"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximum-subarray",
+              "title": "Maximum Subarray",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-subarray"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "reorganize-string",
+              "title": "Reorganize String",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reorganize-string"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "remove-k-digits",
+              "title": "Remove K Digits",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-k-digits"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "single-element-in-a-sorted-array",
+              "title": "Single Element in a Sorted Array",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/single-element-in-a-sorted-array"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "interleaving-string",
+              "title": "Interleaving String",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/interleaving-string"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "search-in-rotated-sorted-array",
+              "title": "Search in Rotated Sorted Array",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/search-in-rotated-sorted-array"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "minimum-operations-to-reduce-x-to-zero",
+              "title": "Minimum Operations to Reduce X to Zero",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "divide-two-integers",
+              "title": "Divide Two Integers",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/divide-two-integers"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "copy-list-with-random-pointer",
+              "title": "Copy List with Random Pointer",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/copy-list-with-random-pointer"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "reverse-integer",
+              "title": "Reverse Integer",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reverse-integer"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "best-time-to-buy-and-sell-stock-ii",
+              "title": "Best Time to Buy and Sell Stock II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "separate-black-and-white-balls",
+              "title": "Separate Black and White Balls",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/separate-black-and-white-balls"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "remove-duplicate-letters",
+              "title": "Remove Duplicate Letters",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-duplicate-letters"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-consecutive-sequence",
+              "title": "Longest Consecutive Sequence",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-consecutive-sequence"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "course-schedule-ii",
+              "title": "Course Schedule II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/course-schedule-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "top-k-frequent-elements",
+              "title": "Top K Frequent Elements",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/top-k-frequent-elements"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "find-first-and-last-position-of-element-in-sorted-array",
+              "title": "Find First and Last Position of Element in Sorted Array",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "integer-to-roman",
+              "title": "Integer to Roman",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/integer-to-roman"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximum-white-tiles-covered-by-a-carpet",
+              "title": "Maximum White Tiles Covered by a Carpet",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "contiguous-array",
+              "title": "Contiguous Array",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/contiguous-array"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "basic-calculator-ii",
+              "title": "Basic Calculator II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/basic-calculator-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "binary-tree-right-side-view",
+              "title": "Binary Tree Right Side View",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-right-side-view"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "find-x-value-of-array-i",
+              "title": "Find X Value of Array I",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-x-value-of-array-i"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "implement-rand10-using-rand7",
+              "title": "Implement Rand10() Using Rand7()",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/implement-rand10-using-rand7"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "word-search",
+              "title": "Word Search",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/word-search"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "string-to-integer-atoi",
+              "title": "String to Integer (atoi)",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/string-to-integer-atoi"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximum-equal-adjacent-pairs-after-at-most-one-replacement",
+              "title": "Maximum Equal Adjacent Pairs After at Most One Replacement",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "reverse-linked-list-ii",
+              "title": "Reverse Linked List II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/reverse-linked-list-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "find-a-peak-element-ii",
+              "title": "Find a Peak Element II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-a-peak-element-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "clone-graph",
+              "title": "Clone Graph",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/clone-graph"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-subarray-divisible-by-k-with-at-most-one-negation-i",
+              "title": "Longest Subarray Divisible by K with At Most One Negation I",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "first-unique-number",
+              "title": "First Unique Number",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/first-unique-number"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "search-suggestions-system",
+              "title": "Search Suggestions System",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/search-suggestions-system"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "spiral-matrix",
+              "title": "Spiral Matrix",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/spiral-matrix"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "binary-tree-level-order-traversal",
+              "title": "Binary Tree Level Order Traversal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/binary-tree-level-order-traversal"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "remove-nth-node-from-end-of-list",
+              "title": "Remove Nth Node From End of List",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "rotting-oranges",
+              "title": "Rotting Oranges",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/rotting-oranges"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximum-product-subarray",
+              "title": "Maximum Product Subarray",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-product-subarray"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "minimum-cost-to-make-all-characters-equal",
+              "title": "Minimum Cost to Make All Characters Equal",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "word-break",
+              "title": "Word Break",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/word-break"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "3sum-closest",
+              "title": "3Sum Closest",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/3sum-closest"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "search-a-2d-matrix-ii",
+              "title": "Search a 2D Matrix II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/search-a-2d-matrix-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "4sum",
+              "title": "4Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/4sum"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "capacity-to-ship-packages-within-d-days",
+              "title": "Capacity To Ship Packages Within D Days",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "permutations",
+              "title": "Permutations",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/permutations"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "evaluate-division",
+              "title": "Evaluate Division",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/evaluate-division"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "title": "Hard",
+      "groups": [
+        {
+          "id": "hard",
+          "title": "Hard",
+          "implicit": true,
+          "problems": [
+            {
+              "id": "trapping-rain-water",
+              "title": "Trapping Rain Water",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/trapping-rain-water"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximum-bitwise-and-after-increment-operations",
+              "title": "Maximum Bitwise AND After Increment Operations",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximum-bitwise-and-after-increment-operations"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "longest-valid-parentheses",
+              "title": "Longest Valid Parentheses",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/longest-valid-parentheses"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "median-of-two-sorted-arrays",
+              "title": "Median of Two Sorted Arrays",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/median-of-two-sorted-arrays"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "split-array-largest-sum",
+              "title": "Split Array Largest Sum",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/split-array-largest-sum"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "integer-to-english-words",
+              "title": "Integer to English Words",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/integer-to-english-words"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "find-median-from-data-stream",
+              "title": "Find Median from Data Stream",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/find-median-from-data-stream"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "bus-routes",
+              "title": "Bus Routes",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/bus-routes"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "maximize-meeting-earnings-with-idle-gaps",
+              "title": "Maximize Meeting Earnings with Idle Gaps",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/maximize-meeting-earnings-with-idle-gaps"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "subarrays-distinct-element-sum-of-squares-ii",
+              "title": "Subarrays Distinct Element Sum of Squares II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "largest-rectangle-in-histogram",
+              "title": "Largest Rectangle in Histogram",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/largest-rectangle-in-histogram"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "word-search-ii",
+              "title": "Word Search II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/word-search-ii"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "smallest-range-covering-elements-from-k-lists",
+              "title": "Smallest Range Covering Elements from K Lists",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "n-queens",
+              "title": "N-Queens",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/n-queens"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "check-if-there-is-a-valid-parentheses-string-path",
+              "title": "Check if There Is a Valid Parentheses String Path",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "lfu-cache",
+              "title": "LFU Cache",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/lfu-cache"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "merge-k-sorted-lists",
+              "title": "Merge k Sorted Lists",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/merge-k-sorted-lists"
+                }
+              ],
+              "similar": []
+            },
+            {
+              "id": "word-break-ii",
+              "title": "Word Break II",
+              "links": [
+                {
+                  "platform": "leetcode",
+                  "url": "https://leetcode.com/problems/word-break-ii"
+                }
+              ],
+              "similar": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
