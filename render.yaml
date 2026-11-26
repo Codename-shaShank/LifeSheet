@@ -5,6 +5,7 @@ services:
     name: lifesheet-api
     runtime: node
     plan: free
+    region: singapore # closest to the Atlas cluster in Mumbai
     rootDir: server
     buildCommand: npm ci
     startCommand: npm start
