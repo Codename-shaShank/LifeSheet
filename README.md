@@ -41,7 +41,7 @@ npm run dev                 # http://localhost:5173  (proxies /api → :5000)
 1. **Backend → Render**: New → Blueprint → this repo (uses `render.yaml`). Fill in `MONGODB_URI`,
    `CLIENT_ORIGIN=https://<your-app>.vercel.app`, `ADMIN_EMAIL` and `SIGNUP_INVITE_CODE` when asked;
    `JWT_SECRET` is generated. In Atlas → Network Access, allow `0.0.0.0/0` (Render has no fixed IPs).
-2. **Frontend → Vercel** (root dir `client`, framework Vite). Edit `client/vercel.json` and
-   replace `YOUR-RENDER-SERVICE` with your Render hostname.
+2. **Frontend → Vercel** (root dir `client`, framework Vite). `client/vercel.json` proxies
+   `/api` to `lifesheet-api.onrender.com`; change it if the Render hostname differs.
    Requests to `/api/*` are proxied, so the session cookie is first-party and works in every browser.
 3. Render's free tier sleeps after idling; the first request after a nap takes a while.
