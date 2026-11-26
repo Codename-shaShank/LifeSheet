@@ -1,0 +1,35 @@
+# Render Blueprint for the API. Render → New → Blueprint → pick this repo.
+# Values marked `sync: false` are asked for in the dashboard when the Blueprint is created.
+services:
+  - type: web
+    name: lifesheet-api
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "24"
+      # Browser → Vercel → Render
+      - key: TRUST_PROXY
+        value: "2"
+      - key: COOKIE_SAMESITE
+        value: lax
+      - key: MAX_USERS
+        value: "5"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false
+      # https://<your-app>.vercel.app
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: SIGNUP_INVITE_CODE
+        sync: false

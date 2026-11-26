@@ -38,9 +38,9 @@ npm run dev                 # http://localhost:5173  (proxies /api → :5000)
 
 ## 2. Deploy
 
-1. **Backend → Render** (Web Service, root dir `server`, build `npm install`, start `npm start`).
-   Env: everything in `.env.example`, with `NODE_ENV=production`, `TRUST_PROXY=2`,
-   `CLIENT_ORIGIN=https://<your-app>.vercel.app`.
+1. **Backend → Render**: New → Blueprint → this repo (uses `render.yaml`). Fill in `MONGODB_URI`,
+   `CLIENT_ORIGIN=https://<your-app>.vercel.app`, `ADMIN_EMAIL` and `SIGNUP_INVITE_CODE` when asked;
+   `JWT_SECRET` is generated. In Atlas → Network Access, allow `0.0.0.0/0` (Render has no fixed IPs).
 2. **Frontend → Vercel** (root dir `client`, framework Vite). Edit `client/vercel.json` and
    replace `YOUR-RENDER-SERVICE` with your Render hostname.
    Requests to `/api/*` are proxied, so the session cookie is first-party and works in every browser.
